@@ -66,7 +66,6 @@ public class SFileServerFormatter : IDirectoryFormatter
         };
 
         var origin = window.location.origin;
-        origin = 'http://localhost:5104';
 
         var currentFiles = [];
         function getFiles (path) {
